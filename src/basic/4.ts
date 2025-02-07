@@ -6,8 +6,8 @@ function calc(num1: number, num2: number): number {
   return num1 + num2;
 }
 
-function customError(): Error {
+function customError(): never {
   throw new Error("Error");
 }
 
-console.log(showMessage, calc, customError);
+
